@@ -81,8 +81,8 @@ graph TD;
 + Add credentials to `.env` file as follows 
     + CLICKHOUSE_USER_NAME_ = "______"
     + CLICKHOUSE_USER_PASSWORD_ = "______"
-+ Run `/tests/test_db_connection_`
-+ Run `/tests/test_db_communication_`
++ Run `python /tests/test_db_connection_.py`
++ Run `python /tests/test_db_communication_.py`
 + If .venv not present, create .venv
     + Run `python -m pip install -r requirements.txt`
 
