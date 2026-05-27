@@ -74,5 +74,28 @@ graph TD;
     data_fetcher_streamlit_-->UI;
 ```
 
+
+### Code Flow -- Steps
+#### Preparations
++ Create an account at Clickhouse Cloud 
++ Add credentials to .env file as follows 
+    + CLICKHOUSE_USER_NAME_ = "______"
+    + CLICKHOUSE_USER_PASSWORD_ = "______"
++ Run </tests/test_db_connection_>
++ Run </tests/test_db_communication_>
++ If .venv not present, create .venv
+    + Run <python -m pip install -r requirements.txt>
+
+#### Login Page
++ <streamlit run py_login_page_streamlit_.py>
+    + User credentials 
+        + Username : HR_1
+        + Password : HR_1
+
+
 ### Screegrabs
-![Login Page](imgs_/Welcome_page.png) ![Displaying Results](imgs_/Emp_Data.png) ![Analytics Page](imgs_/Analysis.png)
+| Login Page | Displaying Results | Analytics Page |
+| :---: | :---: | :---: |
+|![Login Page](imgs_/Welcome_page.png)| ![Displaying Results](imgs_/Emp_Data_.png)|![Analytics Page](imgs_/Analysis.png)|
+
+
