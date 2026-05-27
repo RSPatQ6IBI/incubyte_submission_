@@ -78,16 +78,16 @@ graph TD;
 ### Code Flow -- Steps
 #### Preparations
 + Create an account at Clickhouse Cloud 
-+ Add credentials to .env file as follows 
++ Add credentials to `.env` file as follows 
     + CLICKHOUSE_USER_NAME_ = "______"
     + CLICKHOUSE_USER_PASSWORD_ = "______"
-+ Run </tests/test_db_connection_>
-+ Run </tests/test_db_communication_>
++ Run `/tests/test_db_connection_`
++ Run `/tests/test_db_communication_`
 + If .venv not present, create .venv
-    + Run <python -m pip install -r requirements.txt>
+    + Run `python -m pip install -r requirements.txt`
 
 #### Login Page
-+ <streamlit run py_login_page_streamlit_.py>
++ `streamlit run py_login_page_streamlit_.py`
     + User credentials 
         + Username : HR_1
         + Password : HR_1
