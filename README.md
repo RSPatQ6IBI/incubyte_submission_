@@ -72,3 +72,7 @@ graph TD;
     establish_connection_clickhouse_-->import_data_from_clickhouse_;
     app-->data_fetcher_streamlit_;
     data_fetcher_streamlit_-->UI;
+```
+
+### Screegrabs
+![Login Page](imgs_/Welcome_page.png) ![Displaying Results](imgs_/Emp_Data.png) ![Analytics Page](imgs_/Analysis.png)
